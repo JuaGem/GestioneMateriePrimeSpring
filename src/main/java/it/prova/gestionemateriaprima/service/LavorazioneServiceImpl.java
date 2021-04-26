@@ -27,6 +27,7 @@ public class LavorazioneServiceImpl implements ILavorazioneService {
 		
 		
 			System.out.println("Inizio lavorazione materia prima........................");
+		        System.out.println(materiaInput.getStatoMateriaPrima());
 			System.out.println("************************************");
 			materiaInput.setStatoMateriaPrima(Stato.IN_LAVORAZIONE);
 				System.out.println(materiaInput);
