@@ -14,6 +14,7 @@ public class AssemblaggioServiceImpl implements IAssemblaggioService {
 	
 	public void assemblaggio(MateriaPrima materiaInput) {
 	  System.out.println("Assemblaggio della materia prima:"+materiaInput);
+	  aggiornaAssemblaggio(materiaInput);
 	}
 	
 	public void aggiornaAssemblaggio(MateriaPrima materiaInput) {
