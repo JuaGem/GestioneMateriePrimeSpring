@@ -38,5 +38,10 @@ public class MateriaPrima {
 	public void setId(Long id) {
 		this.id = id;
 	}
-
+	
+	@Override
+	public String toString() {
+		return "MateriaPrima [descrizione=" + descrizione + ", statoMateriaPrima=" + statoMateriaPrima + "]";
+	}
+	
 }
