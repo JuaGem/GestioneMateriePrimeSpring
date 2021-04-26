@@ -10,6 +10,7 @@ public class VerniciaturaServiceImpl implements IVerniciaturaService{
 	
 	public void verniciatura(MateriaPrima materiaInput) {
 		System.out.println("Verniciatura della materia prima:"+materiaInput);
+		aggiornaVerniciatura(materiaInput);
 	}
 	
 	public void aggiornaVerniciatura(MateriaPrima materiaInput) {
