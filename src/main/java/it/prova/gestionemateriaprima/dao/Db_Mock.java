@@ -12,10 +12,10 @@ public class Db_Mock {
 	
 	static {
 		MateriaPrima materia1 = new MateriaPrima(1L,"Sabbia",Stato.IN_INSERIMENTO);
-		MateriaPrima materia2 = new MateriaPrima(2L,"Oro",Stato.IN_LAVORAZIONE);
-		MateriaPrima materia3 = new MateriaPrima(3L,"Rame",Stato.IN_MESSAINPROVA);
-		MateriaPrima materia4 = new MateriaPrima(4L,"Legno",Stato.IN_VERNICIATURA);
-		MateriaPrima materia5 = new MateriaPrima(5L,"Accaio",Stato.IN_ASSEMBLAGGIO);
+		MateriaPrima materia2 = new MateriaPrima(2L,"Oro",Stato.IN_INSERIMENTO);
+		MateriaPrima materia3 = new MateriaPrima(3L,"Rame",Stato.IN_INSERIMENTO);
+		MateriaPrima materia4 = new MateriaPrima(4L,"Legno",Stato.IN_INSERIMENTO);
+		MateriaPrima materia5 = new MateriaPrima(5L,"Accaio",Stato.IN_INSERIMENTO);
 		materiePrime.add(materia5);
 		materiePrime.add(materia4);
 		materiePrime.add(materia3);
