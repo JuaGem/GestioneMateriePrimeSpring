@@ -29,12 +29,12 @@ public class LavorazioneServiceImpl implements ILavorazioneService {
 			System.out.println("Inizio lavorazione materia prima........................");
 			System.out.println("************************************");
 			materiaInput.setStatoMateriaPrima(Stato.IN_LAVORAZIONE);
-				System.out.println("Inizio esame del candidato: "+materiaInput);
+				System.out.println(materiaInput);
 				assemblaggioService.assemblaggio(materiaInput);
 				verniciaturaService.verniciatura(materiaInput);
 				messaInOperaService.messaInOpera(materiaInput);
 				materiaInput.setStatoMateriaPrima(Stato.PRONTO);
-				System.out.println("Termine esame del candidato: "+materiaInput);
+				System.out.println("Termine lavorazione materia prima: "+materiaInput);
 				System.out.println("************************************");
 			
 			System.out.println("************************************");
