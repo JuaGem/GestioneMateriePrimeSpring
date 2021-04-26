@@ -9,8 +9,8 @@ import it.prova.gestionemateriaprima.model.Stato;
 public class MessaInOperaServiceImpl implements IMessaInOperaService {
 	
 	public void messaInOpera(MateriaPrima materiaInput) {
-		System.out.println("Messa in opera della materia prima:"+materiaInput);
 		aggiornaMessaInOpera(materiaInput);
+		System.out.println("Messa in opera della materia prima:"+materiaInput);
 	}
 	
 	public void aggiornaMessaInOpera(MateriaPrima materiaInput) {
